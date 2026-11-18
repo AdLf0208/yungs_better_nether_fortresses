@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:keep",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "betterfortresses:starts"
+}

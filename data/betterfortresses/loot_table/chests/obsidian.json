@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 5.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:obsidian",
+          "type": "minecraft:item",
+          "weight": 50
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 3.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:crying_obsidian",
+          "type": "minecraft:item",
+          "weight": 50
+        }
+      ],
+      "rolls": {
+        "max": 2.0,
+        "min": 1.0,
+        "type": "minecraft:uniform"
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "name": "minecraft:flint_and_steel",
+          "type": "minecraft:item",
+          "weight": 10
+        },
+        {
+          "name": "minecraft:diamond",
+          "type": "minecraft:item",
+          "weight": 5
+        }
+      ],
+      "rolls": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+      }
+    }
+  ],
+  "type": "minecraft:chest"
+}

@@ -1,0 +1,42 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "location": "betterfortresses:mobs/piglin",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "location": "betterfortresses:mobs/wither_skeleton",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "location": "betterfortresses:mobs/skeleton",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "betterfortresses:mobs"
+}

@@ -1,0 +1,183 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "is_priority": true,
+        "location": "betterfortresses:blaze/blaze_0",
+        "max_count": 1,
+        "name": "blaze_forced",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 28,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:blaze/blaze_0",
+        "max_count": 2,
+        "name": "blaze",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 28,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:blaze/blaze_broken_0_r",
+        "max_count": 2,
+        "name": "blaze_broken",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 28,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:blaze/blaze_broken_1_r",
+        "max_count": 2,
+        "name": "blaze_broken",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 28,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:blaze/blaze_broken_2_r",
+        "max_count": 2,
+        "name": "blaze_broken",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 28,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:blaze/blaze_broken_3_r",
+        "max_count": 2,
+        "name": "blaze_broken",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 28,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:blaze/blaze_broken_4_r",
+        "max_count": 2,
+        "name": "blaze_broken",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 28,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:blaze/blaze_broken_0_l",
+        "max_count": 2,
+        "name": "blaze_broken",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 28,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:blaze/blaze_broken_1_l",
+        "max_count": 2,
+        "name": "blaze_broken",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 28,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:blaze/blaze_broken_2_l",
+        "max_count": 2,
+        "name": "blaze_broken",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 28,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:blaze/blaze_broken_3_l",
+        "max_count": 2,
+        "name": "blaze_broken",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 28,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:blaze/blaze_broken_4_l",
+        "max_count": 2,
+        "name": "blaze_broken",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "betterfortresses:blaze"
+}

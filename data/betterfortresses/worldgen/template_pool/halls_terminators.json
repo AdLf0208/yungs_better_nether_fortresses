@@ -1,0 +1,456 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/hall_deadend_prop",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/hall_deadend_decor",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/hall_deadend",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "location": "betterfortresses:halls/hall_terminator",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/quarters_sm",
+        "max_count": 2,
+        "name": "quarters",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/officer_sm",
+        "max_count": 2,
+        "name": "officer",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/storeroom_sm_0",
+        "max_count": 2,
+        "name": "storeroom",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/storeroom_sm_1",
+        "max_count": 2,
+        "name": "storeroom",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/study_sm",
+        "max_count": 1,
+        "name": "study_sm",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 8
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/a_very_ethical_room",
+        "max_count": 1,
+        "name": "a_very_ethical_room",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/mess_md_l_0",
+        "max_count": 1,
+        "name": "mess",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/mess_md_r_0",
+        "max_count": 1,
+        "name": "mess",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/study_md_l_0",
+        "max_count": 1,
+        "name": "study_md",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/study_md_r_0",
+        "max_count": 1,
+        "name": "study_md",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/jail_md_l_0",
+        "max_count": 1,
+        "name": "jail",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/jail_md_r_0",
+        "max_count": 1,
+        "name": "jail",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/quarters_md_l_0",
+        "max_count": 2,
+        "name": "quarters",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/quarters_md_r_0",
+        "max_count": 2,
+        "name": "quarters",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/worship_md_l_0",
+        "max_count": 1,
+        "name": "worship",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/worship_md_r_0",
+        "max_count": 1,
+        "name": "worship",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/nether_reactor_md_l_0",
+        "max_count": 1,
+        "name": "nether_reactor",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/nether_reactor_md_r_0",
+        "max_count": 1,
+        "name": "nether_reactor",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/puzzle_md_side_0",
+        "max_count": 1,
+        "name": "puzzle_md_side_0",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/obsidan_md_side_0",
+        "max_count": 1,
+        "name": "obsidian_room",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "condition": {
+          "min_required_depth": 16,
+          "type": "yungsapi:depth"
+        },
+        "element_type": "yungsapi:yung_single_element",
+        "enhanced_terrain_adaptation": {
+          "type": "yungsapi:none"
+        },
+        "is_priority": true,
+        "location": "betterfortresses:halls/room/armory_md_side_0",
+        "max_count": 1,
+        "name": "armory",
+        "processors": "betterfortresses:main",
+        "projection": "rigid"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "betterfortresses:halls_terminators"
+}

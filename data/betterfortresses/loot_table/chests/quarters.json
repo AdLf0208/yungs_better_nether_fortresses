@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 5.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_nugget",
+          "type": "minecraft:item",
+          "weight": 50
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 5.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_nugget",
+          "type": "minecraft:item",
+          "weight": 50
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 5.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "type": "minecraft:item",
+          "weight": 50
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 5.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot",
+          "type": "minecraft:item",
+          "weight": 50
+        },
+        {
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "max": 4.0,
+                "min": 2.0,
+                "type": "minecraft:uniform"
+              },
+              "type": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:nether_wart",
+          "type": "minecraft:item",
+          "weight": 50
+        },
+        {
+          "name": "minecraft:diamond",
+          "type": "minecraft:item",
+          "weight": 25
+        }
+      ],
+      "rolls": {
+        "max": 6.0,
+        "min": 3.0,
+        "type": "minecraft:uniform"
+      }
+    }
+  ],
+  "type": "minecraft:chest"
+}

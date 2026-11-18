@@ -1,0 +1,26 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:bridge/bridge_chest",
+        "max_count": 6,
+        "name": "bridge_chest",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "yungsapi:yung_single_element",
+        "location": "betterfortresses:bridge/bridge_chest_empty",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 12
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "betterfortresses:bridge_chest"
+}
